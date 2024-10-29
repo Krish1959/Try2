@@ -1,11 +1,15 @@
 import streamlit as st
 from openai import OpenAI
-# from Dencoder import decoder
+from Dencoder import decoder
 
 # Title and description.
 st.title("🎈 BCA Project...💬")
 st.write("Agent-based Analyser for Technical and Regulatory Requirements Checks")
 st.write("\n\n\n by: Woon Wei & UNNI")
+ascii_string = decoder()
+with st.expander("Click to view  string"):
+    st.code(ascii_string, language="text")
+
 
 # Check if the OpenAI API key has already been set
 if "openai_api_key" not in st.session_state:
