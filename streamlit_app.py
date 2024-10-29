@@ -10,7 +10,7 @@ st.write( "\n\n\n by: Woon Wei & UNNI" )
 NeoWise2 = "Apple"
 #NeoWise = decoder()
 with st.expander("Click to view ASCII string"):
-    st.code(NeoWise, language="text")
+    st.code(NeoWise2, language="text")
     
     
 '''
