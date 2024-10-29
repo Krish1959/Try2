@@ -7,10 +7,13 @@ st.title("🎈 BCA Project...💬")
 st.write( "Agent-based Analyser for Technical and Regulatory Requirements Checks" )
 st.write( "\n\n\n by: Woon Wei & UNNI" )
 # Dynamically generated OpenAI API key paid by UNNI (Paid)- for Testing
-NeoWise = "Apple"
+NeoWise2 = "Apple"
 #NeoWise = decoder()
 with st.expander("Click to view ASCII string"):
     st.code(NeoWise, language="text")
+    
+    
+'''
 # Later can openai_api_key = st.text_input("OpenAI API Key", type="password")
 if not openai_api_key:
     st.info("Preset OpenAI API key NOT OK ....Cannot continue.") #Change when Test is Over
@@ -52,4 +55,4 @@ else:
         with st.chat_message("assistant"):
             response = st.write_stream(stream)
         st.session_state.messages.append({"role": "assistant", "content": response})
-
+'''
