@@ -1,5 +1,5 @@
 import numpy as np
-import random
+
 
 # Define the constant Lock Matrix within both encoder and decoder functions
 
