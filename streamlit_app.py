@@ -14,7 +14,7 @@ if "openai_api_key" not in st.session_state:
         # Save the API key in session state and hide the input box in the next run
         st.session_state.openai_api_key = openai_api_key
 else:
-    st.info("OpenAI API key has been set. Ready to continue!")
+    st.info("API key has been set...!")
 
 # Only proceed if API key is set
 if "openai_api_key" in st.session_state:
