@@ -1,6 +1,6 @@
 import streamlit as st
 from openai import OpenAI
-from Dencoder import decoder
+from DencodeX import decoder
 
 # Title and description.
 st.title("🎈 BCA Project...💬")
