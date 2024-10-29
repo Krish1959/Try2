@@ -1,6 +1,6 @@
 import streamlit as st
 
-# from openai import OpenAI
+from openai import OpenAI
 
 # Title and description.
 st.title("🎈 BCA Project...💬")
