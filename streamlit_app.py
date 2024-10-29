@@ -1,6 +1,6 @@
 import streamlit as st
 from openai import OpenAI
-from Dencoder import decoder
+#from Dencoder import decoder
 
 # Title and description.
 st.title("🎈 BCA Project...💬")
@@ -8,9 +8,10 @@ st.write( "Agent-based Analyser for Technical and Regulatory Requirements Checks
 st.write( "\n\n\n by: Woon Wei & UNNI" )
 # Dynamically generated OpenAI API key paid by UNNI (Paid)- for Testing
 
-xxx = decoder()
+#xxx = decoder()
+NeoWise = "Apple"
 with st.expander("Click to view ASCII string"):
-    st.code(xxx, language="text")
+    st.code(NeoWise, language="text")
     
     
 '''
