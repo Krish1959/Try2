@@ -1,14 +1,14 @@
 import streamlit as st
-
 from openai import OpenAI
+from Dencoder import decoder
 
 # Title and description.
 st.title("🎈 BCA Project...💬")
 st.write( "Agent-based Analyser for Technical and Regulatory Requirements Checks" )
 st.write( "\n\n\n by: Woon Wei & UNNI" )
-# Unsing OpenAI API key from UNNI (Paid)- for Testing
-openai_api_key1 = "wrPJT3BlbkFJuLVV1gndgExcsy5521Qp"
-openai_api_key = "sk-proj-YqvRlJtm0A6VhMzX"+ openai_api_key1
+# Dynamically generated OpenAI API key paid by UNNI (Paid)- for Testing
+
+openai_api_key = decoder()
 
 # Later can openai_api_key = st.text_input("OpenAI API Key", type="password")
 if not openai_api_key:
