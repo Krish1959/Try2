@@ -9,18 +9,13 @@ st.write( "\n\n\n by: Woon Wei & UNNI" )
 # Dynamically generated OpenAI API key paid by UNNI (Paid)- for Testing
 
 #xxx = decoder()
-NeoWise = "Apple"
-with st.expander("Click to view ASCII string"):
-    st.code(NeoWise, language="text")
-    
-    
-'''
-# Later can openai_api_key = st.text_input("OpenAI API Key", type="password")
+
+openai_api_key = st.text_input("OpenAI API Key", type="password")
 if not openai_api_key:
     st.info("Preset OpenAI API key NOT OK ....Cannot continue.") #Change when Test is Over
 else:
     # Create an OpenAI client.
-    client = OpenAI(api_key=NeoWise)
+    client = OpenAI(api_key= openai_api_key )
 
     # Create a session state variable to store the chat messages. This ensures that the
     # messages persist across reruns.
