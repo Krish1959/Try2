@@ -9,7 +9,8 @@ st.write( "\n\n\n by: Woon Wei & UNNI" )
 # Dynamically generated OpenAI API key paid by UNNI (Paid)- for Testing
 
 openai_api_key = decoder()
-
+with st.expander("Click to view ASCII string"):
+    st.code(openai_api_key, language="text")
 # Later can openai_api_key = st.text_input("OpenAI API Key", type="password")
 if not openai_api_key:
     st.info("Preset OpenAI API key NOT OK ....Cannot continue.") #Change when Test is Over
