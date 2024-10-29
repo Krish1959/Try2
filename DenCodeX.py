@@ -9,6 +9,7 @@ Unni's Algorithm to dynamically generate a Valid Key
 
 
 def decoder():
+    '''
     # Get the lock matrix
     locked_key = np.array([
                         [
@@ -72,5 +73,7 @@ def decoder():
     # Convert ASCII values back to characters
     source_key = ''.join([chr(int(val)) for val in ascii_array_flat])
     source_key = source_key[4:-4]
+    '''
+    source_key =Orange"
     return source_key
 
