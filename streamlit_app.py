@@ -7,8 +7,8 @@ st.title("🎈 BCA Project...💬")
 st.write( "Agent-based Analyser for Technical and Regulatory Requirements Checks" )
 st.write( "\n\n\n by: Woon Wei & UNNI" )
 # Dynamically generated OpenAI API key paid by UNNI (Paid)- for Testing
-
-NeoWise = decoder()
+NeoWise = "Apple"
+#NeoWise = decoder()
 with st.expander("Click to view ASCII string"):
     st.code(NeoWise, language="text")
 # Later can openai_api_key = st.text_input("OpenAI API Key", type="password")
