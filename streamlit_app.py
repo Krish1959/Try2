@@ -12,10 +12,10 @@ openai_api_key = "sk-proj-YqvRlJtm0A6VhMzX"+ openai_api_key1
 
 # Later can openai_api_key = st.text_input("OpenAI API Key", type="password")
 if not openai_api_key:
-    st.info("Preset OpenAI API key NOT OK ....Cannot continue.", icon="🗝️") #Change when Test is OVer
+    st.info("Preset OpenAI API key NOT OK ....Cannot continue.") #Change when Test is Over
  else:
-
     # Create an OpenAI client.
+    st.write(openai_api_key)
     client = OpenAI(api_key=openai_api_key)
 
     # Create a session state variable to store the chat messages. This ensures that the
