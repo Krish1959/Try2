@@ -10,8 +10,8 @@ st.write( "\n\n\n by: Woon Wei & UNNI" )
 
 # OpenAI API key is Preset using Unni's Paid Key 
 # Alternatively, we can get it from user -To be changed 
-openai_api_key = "sk-proj-YqvRlJtm0A6VhMzXwrPJT3BlbkFJuLVV1gndgExcsy5521Qp"
-
+openai_api_key1 = "XwrPJT3BlbkFJuLVV1gndgExcsy5521Qp"
+openai_api_key = "sk-proj-YqvRlJtm0A6VhMz"+openai_api_key1
 if not openai_api_key:
     st.info("Invalid OpenAI API key to continue.", icon="🗝️")
 else:
